@@ -1,0 +1,38 @@
+body {
+    background: #121212;
+    color: white;
+}
+
+.navbar {
+    background: #1F1F1F;
+    height: 5rem;
+}
+
+.calc-screen-holder {
+    display: flex;
+    justify-content: center;
+    margin-top: 8rem;
+}
+
+.calc-screen {
+    background: #1F1F1F;
+    height: 5rem;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    height: 4rem;
+    width: 4rem;
+    background-color: #1F1F1F;
+    margin: 2rem .5rem;
+    border: none;
+    color: white;
+    font-size: large;
+}
