@@ -6,6 +6,9 @@ body {
 .navbar {
     background: #1F1F1F;
     height: 5rem;
+    display: flex;
+    justify-content: center;
+    color: #088F8F;
 }
 
 .calc-screen-holder {
@@ -13,6 +16,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 8rem;
+    color: #088F8F;
 }
 
 .calc-screen {
@@ -36,7 +40,7 @@ body {
     margin: 2rem .5rem;
     border: none;
     color: white;
-    font-size: large;
+    font-size: xx-large;
 }
 
 .star {
@@ -45,6 +49,6 @@ body {
     background-color: #1F1F1F;
     margin: 2rem .5rem;
     border: none;
-    color: white;
+    color: #088F8F;
     font-size: 5rem;
 }
