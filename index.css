@@ -11,20 +11,22 @@ body {
 .calc-screen-holder {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 8rem;
 }
 
 .calc-screen {
     background: #1F1F1F;
-    height: 5rem;
+    height: 4rem;
     width: 20rem;
     display: flex;
     justify-content: center;
 }
 
-#buttons {
+#stars {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .button {
@@ -35,4 +37,14 @@ body {
     border: none;
     color: white;
     font-size: large;
+}
+
+.star {
+    height: 3.5rem;
+    width: 4rem;
+    background-color: #1F1F1F;
+    margin: 2rem .5rem;
+    border: none;
+    color: white;
+    font-size: 5rem;
 }
